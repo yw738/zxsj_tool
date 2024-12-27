@@ -1,0 +1,37 @@
+{
+    "name": "onlineorder.client",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite serve --mode development",
+        "build": "vite build --mode production",
+        "test": "vite build --mode test",
+        "seodev": "vue-cli-service serve --mode development",
+        "preview": "vite preview",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    },
+    "dependencies": {
+        "@ant-design/icons-vue": "^7.0.1",
+        "@microsoft/signalr": "^8.0.0",
+        "@nutui/nutui": "^4.3.4",
+        "@tracespace/core": "^5.0.0-alpha.0",
+        "@vueuse/core": "^10.10.0",
+        "ant-design-vue": "^4.1.2",
+        "axios": "^1.6.8",
+        "decimal.js-light": "^2.5.1",
+        "js-cookie": "^3.0.5",
+        "pinia": "^2.1.7",
+        "pinia-plugin-persistedstate": "^3.2.1",
+        "vue": "^3.4.21",
+        "vue-router": "^4.3.0",
+        "vxe-table": "^4.6.16"
+    },
+    "devDependencies": {
+        "@vant/auto-import-resolver": "^1.1.0",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "unplugin-auto-import": "^0.17.5",
+        "unplugin-vue-components": "^0.26.0",
+        "vite": "^5.1.6"
+    }
+}
